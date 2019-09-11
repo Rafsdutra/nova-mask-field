@@ -1,0 +1,32 @@
+{
+    "name": "rafsd/mask-field",
+    "description": "Package de máscaras para campos em forms.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "mask",
+        "mascara",
+        "field"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rafsd\\MaskField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rafsd\\MaskField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
